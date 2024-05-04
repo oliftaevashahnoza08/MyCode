@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="new_black">#212121</color>
+    <color name="bold_black">#333333</color>
     <color name="white_9">#FFFFFFFF</color>
     <color name="purple">#595085</color>
     <color name="gray">#BEBEBE</color>
@@ -24,6 +25,8 @@
     <color name="grey">#E8E3E3</color>
     <color name="wh">#FFFFFF</color>
     <color name="light_grey">#76F6F7F2</color>
+    <color name="greyforlogin">#737373</color>
+    <color name="greyForButton">#E0E0E0</color>
 
 
 

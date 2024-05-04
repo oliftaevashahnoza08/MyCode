@@ -3,6 +3,7 @@ package com.example.mycode
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextWatcher
 import android.widget.Button
 
 class SecondActivity : AppCompatActivity() {
@@ -14,4 +15,5 @@ class SecondActivity : AppCompatActivity() {
 //        button=findViewById<Button>(R.id.go)
 
     }
+
 }

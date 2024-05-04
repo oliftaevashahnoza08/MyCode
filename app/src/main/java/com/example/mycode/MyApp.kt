@@ -15,9 +15,9 @@ class MyApp : AppCompatActivity() {
         setContentView(R.layout.activity_my_app)
 
 
-       var button=findViewById<AppCompatButton>(R.id.send)
+       val button=findViewById<AppCompatButton>(R.id.send)
         button.setOnClickListener{
-            val intent=Intent(this@MyApp,TrAbroad::class.java)
+            val intent=Intent(this@MyApp,TrAbroadActivity::class.java)
             startActivity(intent)
 
         }

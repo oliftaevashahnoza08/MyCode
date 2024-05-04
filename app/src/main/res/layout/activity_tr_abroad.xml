@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TrAbroad">
+    tools:context=".TrAbroadActivity">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,118 +65,17 @@
             android:layout_marginTop="16dp"
             app:cardCornerRadius="6dp"
              app:cardElevation="34dp">
-            <ScrollView
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <LinearLayout
-                        android:layout_margin="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/tj"
-                            />
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_width="262dp"
-                            android:layout_height="20dp"
-                            android:text="Таджикистан"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/item_one"
 
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_margin="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/rus"
-                            />
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_width="262dp"
-                            android:layout_height="20dp"
-                            android:text="Россия"
-
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_margin="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/uz"
-                            />
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_width="262dp"
-                            android:layout_height="20dp"
-                            android:text="Узбекистан"
-
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_margin="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/pel"
-                            />
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_width="262dp"
-                            android:layout_height="20dp"
-                            android:text="ОАЭ"
+                >
 
 
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_margin="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:src="@drawable/kzk"
-                            />
-                        <TextView
-                            android:layout_marginTop="10dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_width="262dp"
-                            android:layout_height="20dp"
-                            android:text="Казахстан"
+            </androidx.recyclerview.widget.RecyclerView>
 
-
-                            />
-                    </LinearLayout>
-
-                </LinearLayout>
-
-
-
-
-
-            </ScrollView>
 
         </androidx.cardview.widget.CardView>
 
